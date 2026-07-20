@@ -9,8 +9,8 @@ Tracked 1:1 in GitHub Issues on `mllws/mllws-baseline-testing`. Each maps to a p
 Confirm and record the fixed URL list: homepage, 2–3 highest-value content pages, 1 conversion-critical flow, 404 page. Must be locked before any tooling runs — same URLs every time or the v2 comparison breaks.
 
 **Acceptance criteria**
-- [ ] Final URL list agreed and written into `docs/PLAN.md`
-- [ ] Conversion flow identified (signup / contact / checkout / newsletter — whichever is primary)
+- [x] Final URL list agreed and written into `docs/PLAN.md`
+- [x] Conversion flow identified (signup / contact / checkout / newsletter — whichever is primary) — see `docs/PLAN.md` Phase 1: site has no functional form anywhere; Contact + Volunteer pages locked as the flow proxy and the gap recorded as a baseline finding
 
 ---
 
