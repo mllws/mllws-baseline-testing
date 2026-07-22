@@ -19,9 +19,9 @@ Confirm and record the fixed URL list: homepage, 2–3 highest-value content pag
 Add `pa11y-ci` config (axe or HTML_CodeSniffer runner, WCAG2AA) for all scoped URLs, plus a Lighthouse accessibility run as cross-check. Save JSON output per page.
 
 **Acceptance criteria**
-- [ ] `pa11y-ci` config committed and runnable
-- [ ] Lighthouse accessibility score captured per page
-- [ ] Results recorded (issue counts by severity + Lighthouse score) in `reports/`
+- [x] `pa11y-ci` config committed and runnable — `accessibility/pa11y-ci.json`, run via `npm run a11y:pa11y-ci`
+- [x] Lighthouse accessibility score captured per page — `accessibility/run-accessibility.js`, run via `npm run a11y:run`; 404 page is a known `N/A` (Lighthouse treats non-2xx as fatal), see `docs/PLAN.md` Phase 2
+- [x] Results recorded (issue counts by severity + Lighthouse score) in `reports/` — `reports/accessibility-baseline.md`
 
 ---
 
