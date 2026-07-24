@@ -53,6 +53,8 @@ Both pages are locked into scope as the conversion-flow proxy so this gap is cap
 - PageSpeed Insights API pull for CrUX field data (if available)
 - Record: LCP, INP, CLS, TTFB, FCP, page weight, request count per page/device
 
+**Tooling set up 2026-07-24** — `performance/lighthouse-config.json` (same 7 locked URLs, 3 runs/page/device, mobile + desktop) + `performance/run-performance.js` (Lighthouse 11.7.1 `performance` category; mobile uses Lighthouse's default throttled-mobile preset, desktop uses its bundled `desktop-config.js`; captures score, LCP, INP, CLS, TTFB, FCP, page weight, request count; medians across 3 runs) + `performance/run-crux.js` (PageSpeed Insights v5 pull for CrUX field data per URL/device, no API key required) committed. Verified runnable locally (`npm run perf:run`, `npm run perf:crux`) — this phase is scaffolding only, no baseline numbers were saved. WebPageTest cross-check deferred pending an API key (see `performance/README.md`).
+
 ### Phase 4 — UX baseline (automated proxies only)
 - Lighthouse Best Practices + SEO scores per page
 - Playwright script: screenshots at 375px / 768px / 1440px per scoped page

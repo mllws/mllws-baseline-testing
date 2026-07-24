@@ -30,9 +30,9 @@ Add `pa11y-ci` config (axe or HTML_CodeSniffer runner, WCAG2AA) for all scoped U
 Lighthouse CLI/CI (median of 3 runs, mobile + desktop throttled), PageSpeed Insights API pull for CrUX field data, WebPageTest API cross-check.
 
 **Acceptance criteria**
-- [ ] Lighthouse CI config committed
-- [ ] LCP, INP, CLS, TTFB, FCP, page weight, request count captured per page/device
-- [ ] CrUX snapshot captured if available
+- [x] Lighthouse CI config committed — `performance/lighthouse-config.json`, run via `npm run perf:run`
+- [ ] LCP, INP, CLS, TTFB, FCP, page weight, request count captured per page/device — script committed (`performance/run-performance.js`), not yet run
+- [ ] CrUX snapshot captured if available — script committed (`performance/run-crux.js`, `npm run perf:crux`), not yet run
 
 ---
 
