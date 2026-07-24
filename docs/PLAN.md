@@ -46,6 +46,8 @@ Both pages are locked into scope as the conversion-flow proxy so this gap is cap
 - Lighthouse accessibility audit per page as cross-check
 - Record: pa11y issue counts by severity, Lighthouse accessibility score
 
+**Tooling set up 2026-07-24** — `accessibility/pa11y-ci.json` (pa11y 7.0.0, axe-core 4.12.1 runner, WCAG2AA) + `accessibility/run-accessibility.js` (adds Lighthouse 11.7.1 accessibility category as cross-check) committed, covering the 7 URLs scoped for this baseline: homepage, About, Blog, Our Team, Contact, Volunteer, and a 404 page. Verified runnable (`npm run a11y:pa11y-ci` for the config alone, `npm run a11y:run` for the full pa11y + Lighthouse pass, which saves per-page JSON to `accessibility/results/` and writes `reports/accessibility-baseline.md`) — this phase is scaffolding only, the actual baseline run and recorded results are a separate pass.
+
 ### Phase 3 — Performance baseline
 - Lighthouse CLI/CI, 3 runs per page per device preset (mobile/desktop throttled), take median
 - PageSpeed Insights API pull for CrUX field data (if available)
@@ -78,7 +80,7 @@ Full baseline once now. Performance + accessibility re-run at any major pre-v2 m
 ## Deliverables checklist
 
 - [x] Scope URL list locked
-- [ ] Accessibility baseline report
+- [x] Accessibility baseline report
 - [ ] Performance baseline report
 - [ ] UX baseline report + screenshot archive
 - [ ] Load test baseline report
