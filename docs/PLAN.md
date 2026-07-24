@@ -46,23 +46,7 @@ Both pages are locked into scope as the conversion-flow proxy so this gap is cap
 - Lighthouse accessibility audit per page as cross-check
 - Record: pa11y issue counts by severity, Lighthouse accessibility score
 
-**Baseline captured 2026-07-24** — `accessibility/pa11y-ci.json` (pa11y 7.0.0, axe-core 4.12.1 runner, WCAG2AA) + `accessibility/run-accessibility.js` (adds Lighthouse 11.7.1 accessibility category as cross-check) built and run live against the 7 URLs scoped for this baseline: homepage, About, Blog, Our Team, Contact, Volunteer, and a 404 page. Run with `npm run a11y:pa11y-ci` (config only) or `npm run a11y:run` (full pa11y + Lighthouse pass, writes results + this table). Full results: [`reports/accessibility-baseline.md`](../reports/accessibility-baseline.md); raw JSON per page per tool in `accessibility/results/`.
-
-| Page | pa11y errors | Lighthouse a11y |
-|---|---|---|
-| Homepage | 37 | 43/100 |
-| About | 38 | 46/100 |
-| Blog | 70 | 43/100 |
-| Our Team | 132 | 46/100 |
-| Contact | 56 | 66/100 |
-| Volunteer | 38 | 46/100 |
-| 404 page | 1 | N/A — `ERRORED_DOCUMENT_REQUEST` |
-
-Findings:
-- **404 page — Lighthouse can't score it.** pa11y handles the 404 page fine (1 error). Lighthouse can't: by default it treats any non-2xx main document response as fatal (`ERRORED_DOCUMENT_REQUEST`) and returns a null accessibility score rather than actually scoring the page. The report records this as `N/A`, not a misleading `0/100`. This will stay `N/A` on every future run unless the 404 target is swapped for a URL that returns 200 with 404-styled content.
-- **Dominant issue categories.** Aggregate axe rule counts across all 7 pages (`accessibility/results/*.pa11y.json`): `color-contrast` 112, `listitem` (`<li>` not inside `<ul>`/`<ol>`) 109, `link-name` (links with no discernible text) 92, `link-in-text-block` 29, `button-name` 7, `html-has-lang` 7, `list` 7, `meta-viewport` 6. Color-contrast, listitem, and link-name together are ~90% of all errors — the headline issue for the Phase 6 report, not the smaller (but real) `html-has-lang`/`meta-viewport` findings.
-- **Site-wide:** every page's `<html>` element is missing a `lang` attribute (WCAG 3.1.1), and 6 of 7 pages (all but the 404 template) disable pinch-zoom via `user-scalable=0`/`maximum-scale=1.0` in their viewport meta (WCAG 1.4.4).
-- **Reproducibility check:** rerunning the script on a different day against the same 7 URLs produced identical error counts and scores — confirms the tooling is stable enough for the v2 diff this baseline exists for.
+**Tooling set up 2026-07-24** — `accessibility/pa11y-ci.json` (pa11y 7.0.0, axe-core 4.12.1 runner, WCAG2AA) + `accessibility/run-accessibility.js` (adds Lighthouse 11.7.1 accessibility category as cross-check) committed, covering the 7 URLs scoped for this baseline: homepage, About, Blog, Our Team, Contact, Volunteer, and a 404 page. Verified runnable (`npm run a11y:pa11y-ci` for the config alone, `npm run a11y:run` for the full pa11y + Lighthouse pass, which saves per-page JSON to `accessibility/results/` and writes `reports/accessibility-baseline.md`) — this phase is scaffolding only, the actual baseline run and recorded results are a separate pass.
 
 ### Phase 3 — Performance baseline
 - Lighthouse CLI/CI, 3 runs per page per device preset (mobile/desktop throttled), take median

@@ -20,8 +20,8 @@ Add `pa11y-ci` config (axe or HTML_CodeSniffer runner, WCAG2AA) for all scoped U
 
 **Acceptance criteria**
 - [x] `pa11y-ci` config committed and runnable — `accessibility/pa11y-ci.json`, run via `npm run a11y:pa11y-ci`
-- [x] Lighthouse accessibility score captured per page — `accessibility/run-accessibility.js`, run via `npm run a11y:run`; 404 page is a known `N/A` (Lighthouse treats non-2xx as fatal), see `docs/PLAN.md` Phase 2
-- [x] Results recorded (issue counts by severity + Lighthouse score) in `reports/` — `reports/accessibility-baseline.md`
+- [ ] Lighthouse accessibility score captured per page — script committed (`accessibility/run-accessibility.js`, run via `npm run a11y:run`), not yet run
+- [ ] Results recorded (issue counts by severity + Lighthouse score) in `reports/` — pending an actual run
 
 ---
 
