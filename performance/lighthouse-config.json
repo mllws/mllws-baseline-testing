@@ -1,0 +1,17 @@
+{
+  "runsPerPage": 3,
+  "devices": ["mobile", "desktop"],
+  "chromeLaunchConfig": {
+    "chromePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "chromeFlags": ["--headless=new", "--no-sandbox"]
+  },
+  "urls": [
+    "https://www.motherlanguagelovers.com/",
+    "https://www.motherlanguagelovers.com/Home/about",
+    "https://www.motherlanguagelovers.com/Home/blog",
+    "https://www.motherlanguagelovers.com/Home/directors",
+    "https://www.motherlanguagelovers.com/Home/contact",
+    "https://www.motherlanguagelovers.com/Home/volunteer",
+    "https://www.motherlanguagelovers.com/Home/not-a-real-page-baseline-404-check"
+  ]
+}

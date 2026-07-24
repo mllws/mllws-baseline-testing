@@ -5,7 +5,9 @@
   "description": "Automated accessibility/performance/UX/load baseline for motherlanguagelovers.com v1",
   "scripts": {
     "a11y:pa11y-ci": "pa11y-ci --config accessibility/pa11y-ci.json",
-    "a11y:run": "node accessibility/run-accessibility.js"
+    "a11y:run": "node accessibility/run-accessibility.js",
+    "perf:run": "node performance/run-performance.js",
+    "perf:crux": "node performance/run-crux.js"
   },
   "devDependencies": {
     "chrome-launcher": "^1.1.2",

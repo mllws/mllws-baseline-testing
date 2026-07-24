@@ -15,9 +15,9 @@ Tooling choices per baseline dimension, straight from `baseline-testing-plan.md`
 
 ## Performance (`performance/`)
 
-- Lighthouse CLI / Lighthouse CI — lab data, median of 3 runs, mobile + desktop throttled presets
-- PageSpeed Insights API — CrUX field data (if the site has enough traffic)
-- WebPageTest API — third-party waterfall cross-check
+- Lighthouse CLI (11.7.1, `performance` category) — lab data, median of 3 runs, mobile + desktop throttled presets. `performance/lighthouse-config.json` + `performance/run-performance.js`, run via `npm run perf:run`.
+- PageSpeed Insights API — CrUX field data (if the site has enough traffic). `performance/run-crux.js`, run via `npm run perf:crux`.
+- WebPageTest API — third-party waterfall cross-check. Deferred — needs a personal API key not yet provisioned; not required by the issue's acceptance criteria.
 
 ## UX (`ux/`)
 
