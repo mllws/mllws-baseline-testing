@@ -23,6 +23,24 @@ Produce a documented, repeatable baseline (accessibility, performance, UX, load)
 - Confirm final URL list: homepage, 2–3 top content pages, 1 conversion flow, 404 page
 - Record the list in `docs/PLAN.md` (append once confirmed) so every later run targets identical URLs
 
+**Locked 2026-07-20** — verified live (curl status codes + fetched HTML) against `www.motherlanguagelovers.com`:
+
+| Role | URL | Notes |
+|---|---|---|
+| Homepage | `https://www.motherlanguagelovers.com/` | |
+| Content page 1 | `https://www.motherlanguagelovers.com/Home/about` | About Us |
+| Content page 2 | `https://www.motherlanguagelovers.com/Home/blog` | Blog listing (3 posts + sidebar recent posts) |
+| Content page 3 | `https://www.motherlanguagelovers.com/Home/directors` | Our Team |
+| Conversion flow (part 1) | `https://www.motherlanguagelovers.com/Home/contact` | Static contact info only — address, email (`mailto:`), phone, social links |
+| Conversion flow (part 2) | `https://www.motherlanguagelovers.com/Home/volunteer` | Has a "Join us!" button but it links to `href="#"` |
+| 404 page | `https://www.motherlanguagelovers.com/Home/<any-invalid-slug>` | Returns real HTTP 404 (verified via curl), default ASP.NET "resource cannot be found" error page — not a custom-designed 404 |
+
+**Finding — no functional conversion flow exists on the site.** Checked raw HTML of the homepage, Contact, and Volunteer pages: there are zero `<form>` tags anywhere on the site. No signup, checkout, donation, or newsletter mechanism exists. The only conversion-adjacent elements are:
+- Contact page: a `mailto:contact@motherlanguagelovers.com` link and a phone number — no form.
+- Volunteer page: a "Join us!" button (`<a href="#" class="join-us">`) that goes nowhere — a dead link.
+
+Both pages are locked into scope as the conversion-flow proxy so this gap is captured rather than papered over. The Phase 4 Playwright "flow script" (see below) should assert the actual current behavior — page loads, `mailto:`/`tel:` links present and correct, "Join us!" click does not navigate/submit anything — and this absence of a working flow should be called out as the headline finding in the Phase 6 baseline report, since it blocks any real signup/contact/checkout/newsletter UX or load testing until v2 adds one.
+
 ### Phase 2 — Accessibility baseline
 - `pa11y-ci` config (axe or HTML_CodeSniffer runner, WCAG2AA) across scoped URLs, JSON output per page
 - Lighthouse accessibility audit per page as cross-check
@@ -59,7 +77,7 @@ Full baseline once now. Performance + accessibility re-run at any major pre-v2 m
 
 ## Deliverables checklist
 
-- [ ] Scope URL list locked
+- [x] Scope URL list locked
 - [ ] Accessibility baseline report
 - [ ] Performance baseline report
 - [ ] UX baseline report + screenshot archive
