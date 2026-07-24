@@ -1,0 +1,16 @@
+{
+  "urls": [
+    "https://www.motherlanguagelovers.com/",
+    "https://www.motherlanguagelovers.com/Home/about",
+    "https://www.motherlanguagelovers.com/Home/blog",
+    "https://www.motherlanguagelovers.com/Home/directors",
+    "https://www.motherlanguagelovers.com/Home/contact",
+    "https://www.motherlanguagelovers.com/Home/volunteer",
+    "https://www.motherlanguagelovers.com/Home/not-a-real-page-baseline-404-check"
+  ],
+  "screenshotWidths": [375, 768, 1440],
+  "chromeLaunchConfig": {
+    "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "args": ["--no-sandbox"]
+  }
+}
