@@ -7,12 +7,16 @@
     "a11y:pa11y-ci": "pa11y-ci --config accessibility/pa11y-ci.json",
     "a11y:run": "node accessibility/run-accessibility.js",
     "perf:run": "node performance/run-performance.js",
-    "perf:crux": "node performance/run-crux.js"
+    "perf:crux": "node performance/run-crux.js",
+    "ux:screenshots": "node ux/run-screenshots.js",
+    "ux:flow": "node ux/run-flow.js",
+    "ux:lighthouse": "node ux/run-lighthouse-bp-seo.js"
   },
   "devDependencies": {
     "chrome-launcher": "^1.1.2",
     "lighthouse": "^11.7.1",
     "pa11y": "^7.0.0",
-    "pa11y-ci": "^3.1.0"
+    "pa11y-ci": "^3.1.0",
+    "playwright": "^1.61.1"
   }
 }

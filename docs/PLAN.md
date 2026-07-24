@@ -60,6 +60,8 @@ Both pages are locked into scope as the conversion-flow proxy so this gap is cap
 - Playwright script: screenshots at 375px / 768px / 1440px per scoped page
 - Playwright script: scripted run of the conversion flow (step timing + pass/fail)
 
+**Tooling set up 2026-07-24** — `ux/ux-config.json` (same 7 locked URLs, screenshot widths) + `ux/run-screenshots.js` (Playwright 1.61.1 full-page screenshot per URL per width, saved to `ux/screenshots/`) + `ux/run-flow.js` (Playwright walkthrough of the Contact + Volunteer conversion-flow proxy — loads each page, checks `mailto:`/`tel:` links, clicks "Join us!" and asserts it doesn't navigate, confirming the known dead-link gap — step timing + pass/fail to `ux/results/flow-run.json`) + `ux/run-lighthouse-bp-seo.js` (Lighthouse 11.7.1 best-practices + seo categories per URL) committed. Verified runnable locally (`npm run ux:screenshots`, `npm run ux:flow`, `npm run ux:lighthouse`) — this phase is scaffolding only, no screenshots or baseline numbers were saved.
+
 ### Phase 5 — Load testing baseline
 - k6 or Artillery script: ramp 0→N virtual users hitting homepage + conversion flow
 - Run during low-traffic hours or against a staging clone
