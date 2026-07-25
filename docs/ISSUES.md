@@ -41,9 +41,9 @@ Lighthouse CLI/CI (median of 3 runs, mobile + desktop throttled), PageSpeed Insi
 Lighthouse Best Practices + SEO scores; Playwright script for responsive screenshots (375/768/1440px); Playwright script for scripted conversion-flow walkthrough.
 
 **Acceptance criteria**
-- [ ] Screenshot script committed, screenshot archive saved
-- [ ] Flow script committed, step timing + pass/fail log captured
-- [ ] Lighthouse BP/SEO scores recorded per page
+- [ ] Screenshot script committed, screenshot archive saved — script committed (`ux/run-screenshots.js`, `npm run ux:screenshots`), archive not yet saved
+- [ ] Flow script committed, step timing + pass/fail log captured — script committed (`ux/run-flow.js`, `npm run ux:flow`), not yet run
+- [ ] Lighthouse BP/SEO scores recorded per page — script committed (`ux/run-lighthouse-bp-seo.js`, `npm run ux:lighthouse`), not yet run
 
 ---
 

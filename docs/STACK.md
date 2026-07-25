@@ -21,9 +21,9 @@ Tooling choices per baseline dimension, straight from `baseline-testing-plan.md`
 
 ## UX (`ux/`)
 
-- Lighthouse (Best Practices + SEO categories) — per page
-- Playwright — scripted screenshot capture at 375px / 768px / 1440px breakpoints
-- Playwright — scripted conversion-flow walkthrough (step timing, pass/fail)
+- Lighthouse (Best Practices + SEO categories) — per page. `ux/run-lighthouse-bp-seo.js`, run via `npm run ux:lighthouse`.
+- Playwright (1.61.1) — scripted screenshot capture at 375px / 768px / 1440px breakpoints. `ux/run-screenshots.js`, run via `npm run ux:screenshots`.
+- Playwright — scripted conversion-flow walkthrough (step timing, pass/fail) against the Contact + Volunteer proxy. `ux/run-flow.js`, run via `npm run ux:flow`.
 - BackstopJS or Percy — pixel-diff tool, used later when comparing to v2 screenshots (not needed for baseline capture itself)
 
 ## Load (`load/`)
