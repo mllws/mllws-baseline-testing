@@ -1,0 +1,14 @@
+{
+  "baseUrl": "https://www.motherlanguagelovers.com",
+  "conversionFlowPaths": {
+    "contact": "/Home/contact",
+    "volunteer": "/Home/volunteer"
+  },
+  "defaultProfile": {
+    "maxVUs": 50,
+    "rampUp": "1m",
+    "hold": "2m",
+    "rampDown": "30s"
+  },
+  "degradationThresholdMs": 1500
+}

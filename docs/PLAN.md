@@ -67,6 +67,8 @@ Both pages are locked into scope as the conversion-flow proxy so this gap is cap
 - Run during low-traffic hours or against a staging clone
 - Record: p50/p95/p99 response time, error rate, throughput, degradation point
 
+**Tooling set up 2026-07-25** — `load/load-config.json` (base URL, Contact/Volunteer conversion-flow paths, default profile: 0→50 VUs over 1m, hold 2m, ramp down 30s) + `load/load-test.js` (k6; each VU loops homepage → Contact → Volunteer; captures p50/p95/p99 via `http_req_duration`, error rate via `http_req_failed`, throughput via `http_reqs`, plus per-page Trends; `handleSummary()` writes `load/results/summary.json` + `reports/load-baseline.md`) + `load/analyze-load-results.js` (buckets a k6 raw JSON run into 10s windows to flag the degradation point, writes `reports/load-degradation.md`) committed. Verified runnable locally with a heavily reduced smoke profile (`LOAD_TEST_MAX_VUS=2`, ~12s total) against the live site — this phase is scaffolding only, no baseline numbers were saved and the real 0→50 VU profile has not been run. Per the issue, that full run should happen during low-traffic hours or against a staging clone, not casually.
+
 ### Phase 6 — Baseline report
 - Single report, one section per dimension, one row per page/flow
 - Attach all scripts/configs used (reused verbatim for v2) and the screenshot archive

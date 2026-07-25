@@ -52,8 +52,8 @@ Lighthouse Best Practices + SEO scores; Playwright script for responsive screens
 k6 or Artillery script: ramp 0→N virtual users over a fixed period against homepage + conversion flow, run during low-traffic hours or against a staging clone.
 
 **Acceptance criteria**
-- [ ] Load script committed
-- [ ] p50/p95/p99, error rate, throughput, degradation point recorded
+- [x] Load script committed — `load/load-config.json` + `load/load-test.js` (k6), run via `npm run load:run`
+- [ ] p50/p95/p99, error rate, throughput, degradation point recorded — script + degradation analyzer committed (`load/analyze-load-results.js`, `npm run load:analyze`), not yet run at the real 0→50 VU profile
 
 ---
 
