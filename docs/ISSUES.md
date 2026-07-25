@@ -62,8 +62,8 @@ k6 or Artillery script: ramp 0→N virtual users over a fixed period against hom
 One report, four sections (accessibility / performance / UX / load), one row per page/flow. Include date, tool + version, raw scores, links to every script/config used, and the screenshot set.
 
 **Acceptance criteria**
-- [ ] Report published in `reports/`
-- [ ] All scripts/configs referenced are committed and reusable verbatim for v2
+- [ ] Report published in `reports/` — compiler script committed (`reports/compile-baseline-report.js`, `npm run report:compile`), not yet run for real (none of the 4 dimensions has had its actual baseline run yet)
+- [x] All scripts/configs referenced are committed and reusable verbatim for v2
 
 ---
 

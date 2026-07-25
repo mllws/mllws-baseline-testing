@@ -73,6 +73,8 @@ Both pages are locked into scope as the conversion-flow proxy so this gap is cap
 - Single report, one section per dimension, one row per page/flow
 - Attach all scripts/configs used (reused verbatim for v2) and the screenshot archive
 
+**Tooling set up 2026-07-25** — `reports/compile-baseline-report.js` committed: merges whichever per-dimension reports already exist in `reports/` into one `reports/baseline-report.md` (four sections, screenshot-set count, full list of scripts/configs referenced), explicitly flagging any dimension not yet run rather than omitting it silently. Run with `npm run report:compile`. Verified locally by generating real accessibility + performance reports for a single URL and running the compiler against them (with UX/load deliberately left un-run to confirm the graceful "not yet run" path) — output discarded after verification, no baseline report has been published yet since none of the four dimensions has had its real (non-smoke-test) baseline run. Also fixed a broken `package.json` on `main` (a merge conflict between the UX and load PRs had left invalid JSON — missing comma — which silently broke every `npm run` command).
+
 ### Phase 7 — v2 comparison (future)
 - Rerun the same scripts against v2
 - Delta table baseline vs. v2 per metric per page
