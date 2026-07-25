@@ -7,7 +7,9 @@
     "a11y:pa11y-ci": "pa11y-ci --config accessibility/pa11y-ci.json",
     "a11y:run": "node accessibility/run-accessibility.js",
     "perf:run": "node performance/run-performance.js",
-    "perf:crux": "node performance/run-crux.js"
+    "perf:crux": "node performance/run-crux.js",
+    "load:run": "mkdir -p load/results reports && k6 run load/load-test.js",
+    "load:analyze": "node load/analyze-load-results.js"
   },
   "devDependencies": {
     "chrome-launcher": "^1.1.2",

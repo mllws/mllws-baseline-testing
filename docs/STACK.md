@@ -28,8 +28,9 @@ Tooling choices per baseline dimension, straight from `baseline-testing-plan.md`
 
 ## Load (`load/`)
 
-- k6 or Artillery — primary; scriptable, repeatable, CI-friendly
-- Locust — alternative if Python is preferred over JS
+- k6 (binary, not an npm package — `brew install k6`) — primary; scriptable, repeatable, CI-friendly. `load/load-config.json` + `load/load-test.js`, run via `npm run load:run`. Ramps VUs against homepage + Contact/Volunteer (conversion-flow proxy), records p50/p95/p99, error rate, throughput.
+- `load/analyze-load-results.js` — post-processes a k6 raw JSON-lines run to flag the degradation point (p95 crossing threshold as VUs ramp). Run via `npm run load:analyze`.
+- Locust — alternative if Python is preferred over JS (not used)
 
 ## CI (proposal, not yet decided)
 
