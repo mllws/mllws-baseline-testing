@@ -9,10 +9,11 @@
     "perf:run": "node performance/run-performance.js",
     "perf:crux": "node performance/run-crux.js",
     "load:run": "mkdir -p load/results reports && k6 run load/load-test.js",
-    "load:analyze": "node load/analyze-load-results.js"
+    "load:analyze": "node load/analyze-load-results.js",
     "ux:screenshots": "node ux/run-screenshots.js",
     "ux:flow": "node ux/run-flow.js",
-    "ux:lighthouse": "node ux/run-lighthouse-bp-seo.js"
+    "ux:lighthouse": "node ux/run-lighthouse-bp-seo.js",
+    "report:compile": "node reports/compile-baseline-report.js"
   },
   "devDependencies": {
     "chrome-launcher": "^1.1.2",
