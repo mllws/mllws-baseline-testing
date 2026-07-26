@@ -1,0 +1,43 @@
+{
+  "date": "2026-07-26",
+  "contactUrl": "https://www.motherlanguagelovers.com/Home/contact",
+  "volunteerUrl": "https://www.motherlanguagelovers.com/Home/volunteer",
+  "steps": [
+    {
+      "name": "load contact page",
+      "status": "pass",
+      "durationMs": 1943,
+      "detail": "HTTP 200"
+    },
+    {
+      "name": "mailto: link present",
+      "status": "pass",
+      "durationMs": 31,
+      "detail": "mailto:contact@motherlanguagelovers.com"
+    },
+    {
+      "name": "tel: link present",
+      "status": "pass",
+      "durationMs": 2,
+      "detail": "tel:+17789874084"
+    },
+    {
+      "name": "load volunteer page",
+      "status": "pass",
+      "durationMs": 1434,
+      "detail": "HTTP 200"
+    },
+    {
+      "name": "\"Join us!\" button visible",
+      "status": "pass",
+      "durationMs": 26,
+      "detail": "Join us!"
+    },
+    {
+      "name": "\"Join us!\" click does not submit/navigate (known gap)",
+      "status": "pass",
+      "durationMs": 1515,
+      "detail": "stayed on volunteer page (href=\"#\" only appends a hash) — confirms dead link, no functional conversion flow"
+    }
+  ]
+}
