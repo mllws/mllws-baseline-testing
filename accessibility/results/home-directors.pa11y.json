@@ -1,0 +1,1986 @@
+{
+  "documentTitle": "Directors MLLWS",
+  "pageUrl": "https://www.motherlanguagelovers.com/Home/directors",
+  "issues": [
+    {
+      "code": "button-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Buttons must have discernible text (https://dequeuniversity.com/rules/axe/4.8/button-name?application=axeAPI)",
+      "context": "<button type=\"button\" class=\"toggle-nav\"><span class=\"fa fa-bars\"></span...</button>",
+      "selector": "#side-navigation > button",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures buttons have discernible text",
+        "impact": "critical",
+        "help": "Buttons must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/button-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<div class=\"auto-container\">\n        Pages   <span class=\"f...</div>",
+      "selector": "html > body > div:nth-child(1) > div:nth-child(4) > div",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"ative\">About Us</a>",
+      "selector": "html > body > div:nth-child(1) > div:nth-child(4) > div > a",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"small\">Mother Language Lovers of the W...</a>",
+      "selector": "html > body > div:nth-child(1) > footer > div:nth-child(1) > div > div > div:nth-child(4) > div > div > h4 > a",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "html-has-lang",
+      "type": "error",
+      "typeCode": 1,
+      "message": "<html> element must have a lang attribute (https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=axeAPI)",
+      "context": "<html class=\"\"><head><script src=\"https://conn...</html>",
+      "selector": "html",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures every HTML document has a lang attribute",
+        "impact": "serious",
+        "help": "<html> element must have a lang attribute",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/html-has-lang?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-in-text-block",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must be distinguishable without relying on color (https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=axeAPI)",
+      "context": "<a href=\"#\">31 comments</a>",
+      "selector": "html > body > div:nth-child(1) > footer > div:nth-child(1) > div > div > div:nth-child(2) > div > div:nth-child(2) > div > a",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+        "impact": "serious",
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-in-text-block",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must be distinguishable without relying on color (https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=axeAPI)",
+      "context": "<a href=\"#\">21 comments</a>",
+      "selector": "html > body > div:nth-child(1) > footer > div:nth-child(1) > div > div > div:nth-child(2) > div > div:nth-child(3) > div > a",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+        "impact": "serious",
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-in-text-block",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must be distinguishable without relying on color (https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=axeAPI)",
+      "context": "<a href=\"#\">31 comments</a>",
+      "selector": "html > body > div:nth-child(1) > footer > div:nth-child(1) > div > div > div:nth-child(3) > div > div:nth-child(2) > div > a",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+        "impact": "serious",
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-in-text-block",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must be distinguishable without relying on color (https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=axeAPI)",
+      "context": "<a href=\"#\">21 comments</a>",
+      "selector": "html > body > div:nth-child(1) > footer > div:nth-child(1) > div > div > div:nth-child(3) > div > div:nth-child(3) > div > a",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensure links are distinguished from surrounding text in a way that does not rely on color",
+        "impact": "serious",
+        "help": "Links must be distinguishable without relying on color",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-in-text-block?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"/\">\n                            <i...</a>",
+      "selector": "html > body > div:nth-child(1) > header > div > div > div:nth-child(1) > a",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\"><img src=\"/Content/Pack/images/...</a>",
+      "selector": "#mCSB_1_container > div > a",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"mailto:mhislam@motherlanguagelovers.com\" class=\"fa fa-envelope\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(1) > article > div > div:nth-child(3) > a:nth-child(1)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-facebook-f\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(1) > article > div > div:nth-child(3) > a:nth-child(2)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-twitter\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(1) > article > div > div:nth-child(3) > a:nth-child(3)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-instagram\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(1) > article > div > div:nth-child(3) > a:nth-child(4)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"mailto:contact@motherlanguagelovers.com\" class=\"fa fa-envelope\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(2) > article > div > div:nth-child(3) > a:nth-child(1)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-facebook-f\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(2) > article > div > div:nth-child(3) > a:nth-child(2)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-twitter\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(2) > article > div > div:nth-child(3) > a:nth-child(3)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-instagram\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(2) > article > div > div:nth-child(3) > a:nth-child(4)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"mailto:smarefin@motherlanguagelovers.com\" class=\"fa fa-envelope\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(3) > article > div > div:nth-child(3) > a:nth-child(1)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-facebook-f\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(3) > article > div > div:nth-child(3) > a:nth-child(2)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-twitter\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(3) > article > div > div:nth-child(3) > a:nth-child(3)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-instagram\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(3) > article > div > div:nth-child(3) > a:nth-child(4)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"mailto:contact@motherlanguagelovers.com\" class=\"fa fa-envelope\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(4) > article > div > div:nth-child(3) > a:nth-child(1)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-facebook-f\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(4) > article > div > div:nth-child(3) > a:nth-child(2)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-twitter\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(4) > article > div > div:nth-child(3) > a:nth-child(3)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-instagram\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(4) > article > div > div:nth-child(3) > a:nth-child(4)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"mailto:contact@motherlanguagelovers.com\" class=\"fa fa-envelope\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(5) > article > div > div:nth-child(3) > a:nth-child(1)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-facebook-f\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(5) > article > div > div:nth-child(3) > a:nth-child(2)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-twitter\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(5) > article > div > div:nth-child(3) > a:nth-child(3)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-instagram\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(5) > article > div > div:nth-child(3) > a:nth-child(4)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"mailto:contact@motherlanguagelovers.com\" class=\"fa fa-envelope\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(6) > article > div > div:nth-child(3) > a:nth-child(1)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-facebook-f\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(6) > article > div > div:nth-child(3) > a:nth-child(2)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-twitter\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(6) > article > div > div:nth-child(3) > a:nth-child(3)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-instagram\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(6) > article > div > div:nth-child(3) > a:nth-child(4)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"mailto:sbahauddin@motherlanguagelovers.com\" class=\"fa fa-envelope\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(7) > article > div > div:nth-child(3) > a:nth-child(1)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-facebook-f\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(7) > article > div > div:nth-child(3) > a:nth-child(2)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-twitter\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(7) > article > div > div:nth-child(3) > a:nth-child(3)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-instagram\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(7) > article > div > div:nth-child(3) > a:nth-child(4)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"mailto:sbhuiyan@motherlanguagelovers.com\" class=\"fa fa-envelope\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(8) > article > div > div:nth-child(3) > a:nth-child(1)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-facebook-f\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(8) > article > div > div:nth-child(3) > a:nth-child(2)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-twitter\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(8) > article > div > div:nth-child(3) > a:nth-child(3)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-instagram\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(8) > article > div > div:nth-child(3) > a:nth-child(4)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"mailto:kkhandaker@motherlanguagelovers.com\" class=\"fa fa-envelope\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(9) > article > div > div:nth-child(3) > a:nth-child(1)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-facebook-f\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(9) > article > div > div:nth-child(3) > a:nth-child(2)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-twitter\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(9) > article > div > div:nth-child(3) > a:nth-child(3)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-instagram\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(9) > article > div > div:nth-child(3) > a:nth-child(4)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"mailto:admin@motherlanguagelovers.com\" class=\"fa fa-envelope\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(10) > article > div > div:nth-child(3) > a:nth-child(1)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-facebook-f\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(10) > article > div > div:nth-child(3) > a:nth-child(2)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-twitter\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(10) > article > div > div:nth-child(3) > a:nth-child(3)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-instagram\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(10) > article > div > div:nth-child(3) > a:nth-child(4)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"mailto:finance@motherlanguagelovers.com\" class=\"fa fa-envelope\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(11) > article > div > div:nth-child(3) > a:nth-child(1)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-facebook-f\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(11) > article > div > div:nth-child(3) > a:nth-child(2)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-twitter\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(11) > article > div > div:nth-child(3) > a:nth-child(3)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-instagram\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(11) > article > div > div:nth-child(3) > a:nth-child(4)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"mailto:marshallh@motherlanguagelovers.com\" class=\"fa fa-envelope\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(3) > div > div:nth-child(2) > article > div > div:nth-child(3) > a:nth-child(1)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-facebook-f\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(3) > div > div:nth-child(2) > article > div > div:nth-child(3) > a:nth-child(2)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-twitter\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(3) > div > div:nth-child(2) > article > div > div:nth-child(3) > a:nth-child(3)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-instagram\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(3) > div > div:nth-child(2) > article > div > div:nth-child(3) > a:nth-child(4)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"mailto:sshams@motherlanguagelovers.com\" class=\"fa fa-envelope\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(3) > div > div:nth-child(3) > article > div > div:nth-child(3) > a:nth-child(1)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-facebook-f\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(3) > div > div:nth-child(3) > article > div > div:nth-child(3) > a:nth-child(2)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-twitter\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(3) > div > div:nth-child(3) > article > div > div:nth-child(3) > a:nth-child(3)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-instagram\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(3) > div > div:nth-child(3) > article > div > div:nth-child(3) > a:nth-child(4)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"mailto:maislam@motherlanguagelovers.com\" class=\"fa fa-envelope\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(5) > div > div:nth-child(2) > article > div > div:nth-child(3) > a:nth-child(1)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-facebook-f\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(5) > div > div:nth-child(2) > article > div > div:nth-child(3) > a:nth-child(2)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-twitter\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(5) > div > div:nth-child(2) > article > div > div:nth-child(3) > a:nth-child(3)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-instagram\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(5) > div > div:nth-child(2) > article > div > div:nth-child(3) > a:nth-child(4)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"mailto:mizanmajum@shaw.ca\" class=\"fa fa-envelope\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(5) > div > div:nth-child(3) > article > div > div:nth-child(3) > a:nth-child(1)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-facebook-f\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(5) > div > div:nth-child(3) > article > div > div:nth-child(3) > a:nth-child(2)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-twitter\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(5) > div > div:nth-child(3) > article > div > div:nth-child(3) > a:nth-child(3)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-instagram\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(5) > div > div:nth-child(3) > article > div > div:nth-child(3) > a:nth-child(4)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"mailto:ssajjadrahman@gmail.com\" class=\"fa fa-envelope\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(5) > div > div:nth-child(4) > article > div > div:nth-child(3) > a:nth-child(1)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-facebook-f\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(5) > div > div:nth-child(4) > article > div > div:nth-child(3) > a:nth-child(2)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-twitter\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(5) > div > div:nth-child(4) > article > div > div:nth-child(3) > a:nth-child(3)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-instagram\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(5) > div > div:nth-child(4) > article > div > div:nth-child(3) > a:nth-child(4)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"mailto:hasanferdous1971@gmail.com\" class=\"fa fa-envelope\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(5) > div > div:nth-child(5) > article > div > div:nth-child(3) > a:nth-child(1)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-facebook-f\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(5) > div > div:nth-child(5) > article > div > div:nth-child(3) > a:nth-child(2)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-twitter\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(5) > div > div:nth-child(5) > article > div > div:nth-child(3) > a:nth-child(3)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "link-name",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Links must have discernible text (https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI)",
+      "context": "<a href=\"#\" class=\"fa fa-instagram\"></a>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(5) > div > div:nth-child(5) > article > div > div:nth-child(3) > a:nth-child(4)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "help": "Links must have discernible text",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/link-name?application=axeAPI"
+      }
+    },
+    {
+      "code": "list",
+      "type": "error",
+      "typeCode": 1,
+      "message": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements (https://dequeuniversity.com/rules/axe/4.8/list?application=axeAPI)",
+      "context": "<ul class=\"slider owl-carousel owl-theme owl-loaded\">\n                    \n         ...</ul>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(7) > div > ul",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures that lists are structured correctly",
+        "impact": "serious",
+        "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/list?application=axeAPI"
+      }
+    },
+    {
+      "code": "listitem",
+      "type": "error",
+      "typeCode": 1,
+      "message": "<li> elements must be contained in a <ul> or <ol> (https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI)",
+      "context": "<li><a href=\"#\"><img src=\"/Content/...</li>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(7) > div > ul > div:nth-child(1) > div > div:nth-child(1) > li",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures <li> elements are used semantically",
+        "impact": "serious",
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI"
+      }
+    },
+    {
+      "code": "listitem",
+      "type": "error",
+      "typeCode": 1,
+      "message": "<li> elements must be contained in a <ul> or <ol> (https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI)",
+      "context": "<li><a href=\"#\"><img src=\"/Content/...</li>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(7) > div > ul > div:nth-child(1) > div > div:nth-child(2) > li",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures <li> elements are used semantically",
+        "impact": "serious",
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI"
+      }
+    },
+    {
+      "code": "listitem",
+      "type": "error",
+      "typeCode": 1,
+      "message": "<li> elements must be contained in a <ul> or <ol> (https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI)",
+      "context": "<li><a href=\"#\"><img src=\"/Content/...</li>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(7) > div > ul > div:nth-child(1) > div > div:nth-child(3) > li",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures <li> elements are used semantically",
+        "impact": "serious",
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI"
+      }
+    },
+    {
+      "code": "listitem",
+      "type": "error",
+      "typeCode": 1,
+      "message": "<li> elements must be contained in a <ul> or <ol> (https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI)",
+      "context": "<li><a href=\"#\"><img src=\"/Content/...</li>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(7) > div > ul > div:nth-child(1) > div > div:nth-child(4) > li",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures <li> elements are used semantically",
+        "impact": "serious",
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI"
+      }
+    },
+    {
+      "code": "listitem",
+      "type": "error",
+      "typeCode": 1,
+      "message": "<li> elements must be contained in a <ul> or <ol> (https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI)",
+      "context": "<li><a href=\"#\"><img src=\"/Content/...</li>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(7) > div > ul > div:nth-child(1) > div > div:nth-child(5) > li",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures <li> elements are used semantically",
+        "impact": "serious",
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI"
+      }
+    },
+    {
+      "code": "listitem",
+      "type": "error",
+      "typeCode": 1,
+      "message": "<li> elements must be contained in a <ul> or <ol> (https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI)",
+      "context": "<li><a href=\"#\"><img src=\"/Content/...</li>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(7) > div > ul > div:nth-child(1) > div > div:nth-child(6) > li",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures <li> elements are used semantically",
+        "impact": "serious",
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI"
+      }
+    },
+    {
+      "code": "listitem",
+      "type": "error",
+      "typeCode": 1,
+      "message": "<li> elements must be contained in a <ul> or <ol> (https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI)",
+      "context": "<li><a href=\"#\"><img src=\"/Content/...</li>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(7) > div > ul > div:nth-child(1) > div > div:nth-child(7) > li",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures <li> elements are used semantically",
+        "impact": "serious",
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI"
+      }
+    },
+    {
+      "code": "listitem",
+      "type": "error",
+      "typeCode": 1,
+      "message": "<li> elements must be contained in a <ul> or <ol> (https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI)",
+      "context": "<li><a href=\"#\"><img src=\"/Content/...</li>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(7) > div > ul > div:nth-child(1) > div > div:nth-child(8) > li",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures <li> elements are used semantically",
+        "impact": "serious",
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI"
+      }
+    },
+    {
+      "code": "listitem",
+      "type": "error",
+      "typeCode": 1,
+      "message": "<li> elements must be contained in a <ul> or <ol> (https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI)",
+      "context": "<li><a href=\"#\"><img src=\"/Content/...</li>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(7) > div > ul > div:nth-child(1) > div > div:nth-child(9) > li",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures <li> elements are used semantically",
+        "impact": "serious",
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI"
+      }
+    },
+    {
+      "code": "listitem",
+      "type": "error",
+      "typeCode": 1,
+      "message": "<li> elements must be contained in a <ul> or <ol> (https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI)",
+      "context": "<li><a href=\"#\"><img src=\"/Content/...</li>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(7) > div > ul > div:nth-child(1) > div > div:nth-child(10) > li",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures <li> elements are used semantically",
+        "impact": "serious",
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI"
+      }
+    },
+    {
+      "code": "listitem",
+      "type": "error",
+      "typeCode": 1,
+      "message": "<li> elements must be contained in a <ul> or <ol> (https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI)",
+      "context": "<li><a href=\"#\"><img src=\"/Content/...</li>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(7) > div > ul > div:nth-child(1) > div > div:nth-child(11) > li",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures <li> elements are used semantically",
+        "impact": "serious",
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI"
+      }
+    },
+    {
+      "code": "listitem",
+      "type": "error",
+      "typeCode": 1,
+      "message": "<li> elements must be contained in a <ul> or <ol> (https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI)",
+      "context": "<li><a href=\"#\"><img src=\"/Content/...</li>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(7) > div > ul > div:nth-child(1) > div > div:nth-child(12) > li",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures <li> elements are used semantically",
+        "impact": "serious",
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI"
+      }
+    },
+    {
+      "code": "listitem",
+      "type": "error",
+      "typeCode": 1,
+      "message": "<li> elements must be contained in a <ul> or <ol> (https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI)",
+      "context": "<li><a href=\"#\"><img src=\"/Content/...</li>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(7) > div > ul > div:nth-child(1) > div > div:nth-child(13) > li",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures <li> elements are used semantically",
+        "impact": "serious",
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI"
+      }
+    },
+    {
+      "code": "listitem",
+      "type": "error",
+      "typeCode": 1,
+      "message": "<li> elements must be contained in a <ul> or <ol> (https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI)",
+      "context": "<li><a href=\"#\"><img src=\"/Content/...</li>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(7) > div > ul > div:nth-child(1) > div > div:nth-child(14) > li",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures <li> elements are used semantically",
+        "impact": "serious",
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI"
+      }
+    },
+    {
+      "code": "listitem",
+      "type": "error",
+      "typeCode": 1,
+      "message": "<li> elements must be contained in a <ul> or <ol> (https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI)",
+      "context": "<li><a href=\"#\"><img src=\"/Content/...</li>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(7) > div > ul > div:nth-child(1) > div > div:nth-child(15) > li",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures <li> elements are used semantically",
+        "impact": "serious",
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI"
+      }
+    },
+    {
+      "code": "listitem",
+      "type": "error",
+      "typeCode": 1,
+      "message": "<li> elements must be contained in a <ul> or <ol> (https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI)",
+      "context": "<li><a href=\"#\"><img src=\"/Content/...</li>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(7) > div > ul > div:nth-child(1) > div > div:nth-child(16) > li",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures <li> elements are used semantically",
+        "impact": "serious",
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI"
+      }
+    },
+    {
+      "code": "listitem",
+      "type": "error",
+      "typeCode": 1,
+      "message": "<li> elements must be contained in a <ul> or <ol> (https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI)",
+      "context": "<li><a href=\"#\"><img src=\"/Content/...</li>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(7) > div > ul > div:nth-child(1) > div > div:nth-child(17) > li",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures <li> elements are used semantically",
+        "impact": "serious",
+        "help": "<li> elements must be contained in a <ul> or <ol>",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/listitem?application=axeAPI"
+      }
+    },
+    {
+      "code": "meta-viewport",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Zooming and scaling must not be disabled (https://dequeuniversity.com/rules/axe/4.8/meta-viewport?application=axeAPI)",
+      "context": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\">",
+      "selector": "html > head > meta:nth-child(12)",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "impact": "critical",
+        "help": "Zooming and scaling must not be disabled",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/meta-viewport?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<h3>Hafizul Islam</h3>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(1) > article > div > h3",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<p>President &amp; CEO</p>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(1) > article > div > div:nth-child(2) > p",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<h3>To Be Announced Soon</h3>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(2) > article > div > h3",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<p>Senior Vice President</p>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(2) > article > div > div:nth-child(2) > p",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<h3>Sarker M Arefin</h3>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(3) > article > div > h3",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<p>Vice President</p>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(3) > article > div > div:nth-child(2) > p",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<h3>To Be Announced Soon</h3>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(4) > article > div > h3",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<p>Secretary General</p>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(4) > article > div > div:nth-child(2) > p",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<h3>Mohammad Emon</h3>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(5) > article > div > h3",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<p>Director Global Language Herita...</p>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(5) > article > div > div:nth-child(2) > p",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<h3>Saamiya S Rin</h3>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(6) > article > div > h3",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<p>Director Multicultural Event Ce...</p>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(6) > article > div > div:nth-child(2) > p",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<h3>Shah Bahauddin</h3>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(7) > article > div > h3",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<p>Director Implementation of IMLD...</p>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(7) > article > div > div:nth-child(2) > p",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<h3>Saiful Bhuiyan</h3>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(8) > article > div > h3",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<p>Director Implementation of IMLD...</p>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(8) > article > div > div:nth-child(2) > p",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<h3>Khair Khandaker</h3>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(9) > article > div > h3",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<p>Director Implementation of IMLD...</p>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(9) > article > div > div:nth-child(2) > p",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<h3>Mohammad M Islam</h3>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(10) > article > div > h3",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<p>Director ICT</p>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(10) > article > div > div:nth-child(2) > p",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<h3>Fahad H Chowdhury</h3>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(11) > article > div > h3",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<p>Director Finance</p>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(1) > div > div:nth-child(2) > div:nth-child(11) > article > div > div:nth-child(2) > p",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<h3>Marshall Hussain</h3>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(3) > div > div:nth-child(2) > article > div > h3",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<p>\n                              ...</p>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(3) > div > div:nth-child(2) > article > div > div:nth-child(2) > p",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<h3>Shehzaad Shams</h3>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(3) > div > div:nth-child(3) > article > div > h3",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<p>\n                              ...</p>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(3) > div > div:nth-child(3) > article > div > div:nth-child(2) > p",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<h3>Mohammad A Islam, M.G.C</h3>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(5) > div > div:nth-child(2) > article > div > h3",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<p>Chief Advisor</p>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(5) > div > div:nth-child(2) > article > div > div:nth-child(2) > p",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<h3>Mizan Majumder</h3>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(5) > div > div:nth-child(3) > article > div > h3",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<p>Advisor</p>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(5) > div > div:nth-child(3) > article > div > div:nth-child(2) > p",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<h3>Dr. Syed S Rahman</h3>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(5) > div > div:nth-child(4) > article > div > h3",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<p>Advisor</p>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(5) > div > div:nth-child(4) > article > div > div:nth-child(2) > p",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<h3>Hasan Ferdous</h3>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(5) > div > div:nth-child(5) > article > div > h3",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    },
+    {
+      "code": "color-contrast",
+      "type": "error",
+      "typeCode": 1,
+      "message": "Elements must meet minimum color contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI)",
+      "context": "<p>Advisor</p>",
+      "selector": "html > body > div:nth-child(1) > section:nth-child(5) > section:nth-child(5) > div > div:nth-child(5) > article > div > div:nth-child(2) > p",
+      "runner": "axe",
+      "runnerExtras": {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+        "impact": "serious",
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.8/color-contrast?application=axeAPI"
+      }
+    }
+  ]
+}
