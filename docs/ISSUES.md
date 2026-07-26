@@ -72,8 +72,8 @@ One report, four sections (accessibility / performance / UX / load), one row per
 Decide whether Lighthouse CI / pa11y-ci should run on a schedule (e.g. GitHub Actions) ahead of v2 milestones, per the plan's suggested cadence (performance + accessibility re-run at major pre-v2 milestones).
 
 **Acceptance criteria**
-- [ ] Decision recorded in `docs/STACK.md`
-- [ ] Workflow added if the answer is yes
+- [x] Decision recorded in `docs/STACK.md` — no scheduled CI, re-runs stay manual
+- [x] Workflow added if the answer is yes — n/a, answer was no
 
 ---
 

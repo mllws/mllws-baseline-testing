@@ -32,9 +32,9 @@ Tooling choices per baseline dimension, straight from `baseline-testing-plan.md`
 - `load/analyze-load-results.js` — post-processes a k6 raw JSON-lines run to flag the degradation point (p95 crossing threshold as VUs ramp). Run via `npm run load:analyze`.
 - Locust — alternative if Python is preferred over JS (not used)
 
-## CI (proposal, not yet decided)
+## CI
 
-GitHub Actions is the natural fit for re-running Lighthouse CI / pa11y-ci on a schedule and for wiring `playwright-axe` into PR checks later. No workflow files added yet — open question, see `docs/ISSUES.md`.
+**Decided 2026-07-26 — no scheduled CI.** Performance and accessibility re-runs stay manual (`npm run perf:run`, `npm run a11y:pa11y-ci` / `npm run a11y:run`) ahead of major pre-v2 milestones rather than on a GitHub Actions schedule. No workflow files added. Revisit if re-run cadence becomes frequent/error-prone enough that manual triggering starts getting skipped.
 
 ## Reports (`reports/`)
 
